@@ -50,7 +50,8 @@
             this.ClientSize = new System.Drawing.Size(484, 462);
             this.Controls.Add(this.pictureBox1);
             this.Name = "Form1";
-            this.Text = "Pi";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "MC estimate of Pi";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
