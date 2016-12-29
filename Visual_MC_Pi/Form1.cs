@@ -25,6 +25,7 @@ namespace WindowsFormsApplication1
 
         private void Form1_Load(object sender, EventArgs e)
         // using a Monte Carlo simulation to estimate the value of Pi
+        // based on https://www.youtube.com/watch?v=VJTFfIqO4TU
         {
             const int width = 500;
             const int height = 500;
